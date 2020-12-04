@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 public class Day1 {
 
     public static void main(String[] args) {
+        List<Integer> input = getInput();
     }
 
     public int firstPart() {
@@ -57,7 +58,7 @@ public class Day1 {
     public static List<Integer> getInput() {
         List<Integer> input = new ArrayList<>();
         try {
-            File file = new File("input/day1/day1.txt");
+            File file = new File("input/day1.txt");
             Scanner scanner = new Scanner(file);
 
             while (scanner.hasNextLine()) {
