@@ -10,6 +10,13 @@ public class Main {
 
         int resultDayTwoPartTwo = dayTwo.solveDay(2);
         System.out.println(resultDayTwoPartTwo + " password are valid in day two part two.");
+
+        Day3 dayThree = new Day3();
+        long resultDayThreePartOne = dayThree.solveDay(1);
+        System.out.println(resultDayThreePartOne + " trees were hit by the toboggan");
+
+        long resultDayThreePartTwo = dayThree.solveDay(2);
+        System.out.println(resultDayThreePartTwo + " trees were hit by the toboggan");
     }
 }
 
